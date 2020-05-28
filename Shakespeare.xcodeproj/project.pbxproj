@@ -15,6 +15,7 @@
 		35D94094247FA128004863BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D94092247FA128004863BB /* LaunchScreen.storyboard */; };
 		35D9409F247FA128004863BB /* ShakespeareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9409E247FA128004863BB /* ShakespeareTests.swift */; };
 		35D940AA247FA128004863BB /* ShakespeareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D940A9247FA128004863BB /* ShakespeareUITests.swift */; };
+		35D940B8247FA300004863BB /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35D940B7247FA300004863BB /* plays.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		35D940A5247FA128004863BB /* ShakespeareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakespeareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D940A9247FA128004863BB /* ShakespeareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakespeareUITests.swift; sourceTree = "<group>"; };
 		35D940AB247FA128004863BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D940B7247FA300004863BB /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		35D94086247FA127004863BB /* Shakespeare */ = {
 			isa = PBXGroup;
 			children = (
+				35D940B7247FA300004863BB /* plays.txt */,
 				35D94087247FA127004863BB /* AppDelegate.swift */,
 				35D94089247FA127004863BB /* SceneDelegate.swift */,
 				35D9408B247FA127004863BB /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D940B8247FA300004863BB /* plays.txt in Resources */,
 				35D94094247FA128004863BB /* LaunchScreen.storyboard in Resources */,
 				35D94091247FA128004863BB /* Assets.xcassets in Resources */,
 				35D9408F247FA127004863BB /* Main.storyboard in Resources */,
