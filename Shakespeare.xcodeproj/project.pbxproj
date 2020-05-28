@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35D94088247FA127004863BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D94087247FA127004863BB /* AppDelegate.swift */; };
+		35D9408A247FA127004863BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D94089247FA127004863BB /* SceneDelegate.swift */; };
+		35D9408C247FA127004863BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9408B247FA127004863BB /* ViewController.swift */; };
+		35D9408F247FA127004863BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D9408D247FA127004863BB /* Main.storyboard */; };
+		35D94091247FA128004863BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D94090247FA128004863BB /* Assets.xcassets */; };
+		35D94094247FA128004863BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D94092247FA128004863BB /* LaunchScreen.storyboard */; };
+		35D9409F247FA128004863BB /* ShakespeareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9409E247FA128004863BB /* ShakespeareTests.swift */; };
+		35D940AA247FA128004863BB /* ShakespeareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D940A9247FA128004863BB /* ShakespeareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35D9409B247FA128004863BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D9407C247FA127004863BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35D94083247FA127004863BB;
+			remoteInfo = Shakespeare;
+		};
+		35D940A6247FA128004863BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D9407C247FA127004863BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35D94083247FA127004863BB;
+			remoteInfo = Shakespeare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35D94084247FA127004863BB /* Shakespeare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shakespeare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D94087247FA127004863BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35D94089247FA127004863BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		35D9408B247FA127004863BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35D9408E247FA127004863BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35D94090247FA128004863BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35D94093247FA128004863BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35D94095247FA128004863BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D9409A247FA128004863BB /* ShakespeareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakespeareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D9409E247FA128004863BB /* ShakespeareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakespeareTests.swift; sourceTree = "<group>"; };
+		35D940A0247FA128004863BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D940A5247FA128004863BB /* ShakespeareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakespeareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D940A9247FA128004863BB /* ShakespeareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakespeareUITests.swift; sourceTree = "<group>"; };
+		35D940AB247FA128004863BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35D94081247FA127004863BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D94097247FA128004863BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D940A2247FA128004863BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35D9407B247FA127004863BB = {
+			isa = PBXGroup;
+			children = (
+				35D94086247FA127004863BB /* Shakespeare */,
+				35D9409D247FA128004863BB /* ShakespeareTests */,
+				35D940A8247FA128004863BB /* ShakespeareUITests */,
+				35D94085247FA127004863BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35D94085247FA127004863BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35D94084247FA127004863BB /* Shakespeare.app */,
+				35D9409A247FA128004863BB /* ShakespeareTests.xctest */,
+				35D940A5247FA128004863BB /* ShakespeareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35D94086247FA127004863BB /* Shakespeare */ = {
+			isa = PBXGroup;
+			children = (
+				35D94087247FA127004863BB /* AppDelegate.swift */,
+				35D94089247FA127004863BB /* SceneDelegate.swift */,
+				35D9408B247FA127004863BB /* ViewController.swift */,
+				35D9408D247FA127004863BB /* Main.storyboard */,
+				35D94090247FA128004863BB /* Assets.xcassets */,
+				35D94092247FA128004863BB /* LaunchScreen.storyboard */,
+				35D94095247FA128004863BB /* Info.plist */,
+			);
+			path = Shakespeare;
+			sourceTree = "<group>";
+		};
+		35D9409D247FA128004863BB /* ShakespeareTests */ = {
+			isa = PBXGroup;
+			children = (
+				35D9409E247FA128004863BB /* ShakespeareTests.swift */,
+				35D940A0247FA128004863BB /* Info.plist */,
+			);
+			path = ShakespeareTests;
+			sourceTree = "<group>";
+		};
+		35D940A8247FA128004863BB /* ShakespeareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35D940A9247FA128004863BB /* ShakespeareUITests.swift */,
+				35D940AB247FA128004863BB /* Info.plist */,
+			);
+			path = ShakespeareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35D94083247FA127004863BB /* Shakespeare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D940AE247FA128004863BB /* Build configuration list for PBXNativeTarget "Shakespeare" */;
+			buildPhases = (
+				35D94080247FA127004863BB /* Sources */,
+				35D94081247FA127004863BB /* Frameworks */,
+				35D94082247FA127004863BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shakespeare;
+			productName = Shakespeare;
+			productReference = 35D94084247FA127004863BB /* Shakespeare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35D94099247FA128004863BB /* ShakespeareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D940B1247FA128004863BB /* Build configuration list for PBXNativeTarget "ShakespeareTests" */;
+			buildPhases = (
+				35D94096247FA128004863BB /* Sources */,
+				35D94097247FA128004863BB /* Frameworks */,
+				35D94098247FA128004863BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35D9409C247FA128004863BB /* PBXTargetDependency */,
+			);
+			name = ShakespeareTests;
+			productName = ShakespeareTests;
+			productReference = 35D9409A247FA128004863BB /* ShakespeareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35D940A4247FA128004863BB /* ShakespeareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D940B4247FA128004863BB /* Build configuration list for PBXNativeTarget "ShakespeareUITests" */;
+			buildPhases = (
+				35D940A1247FA128004863BB /* Sources */,
+				35D940A2247FA128004863BB /* Frameworks */,
+				35D940A3247FA128004863BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35D940A7247FA128004863BB /* PBXTargetDependency */,
+			);
+			name = ShakespeareUITests;
+			productName = ShakespeareUITests;
+			productReference = 35D940A5247FA128004863BB /* ShakespeareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35D9407C247FA127004863BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Dmitry Reshetnik";
+				TargetAttributes = {
+					35D94083247FA127004863BB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					35D94099247FA128004863BB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 35D94083247FA127004863BB;
+					};
+					35D940A4247FA128004863BB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 35D94083247FA127004863BB;
+					};
+				};
+			};
+			buildConfigurationList = 35D9407F247FA127004863BB /* Build configuration list for PBXProject "Shakespeare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35D9407B247FA127004863BB;
+			productRefGroup = 35D94085247FA127004863BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35D94083247FA127004863BB /* Shakespeare */,
+				35D94099247FA128004863BB /* ShakespeareTests */,
+				35D940A4247FA128004863BB /* ShakespeareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35D94082247FA127004863BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D94094247FA128004863BB /* LaunchScreen.storyboard in Resources */,
+				35D94091247FA128004863BB /* Assets.xcassets in Resources */,
+				35D9408F247FA127004863BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D94098247FA128004863BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D940A3247FA128004863BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35D94080247FA127004863BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D9408C247FA127004863BB /* ViewController.swift in Sources */,
+				35D94088247FA127004863BB /* AppDelegate.swift in Sources */,
+				35D9408A247FA127004863BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D94096247FA128004863BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D9409F247FA128004863BB /* ShakespeareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D940A1247FA128004863BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D940AA247FA128004863BB /* ShakespeareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35D9409C247FA128004863BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35D94083247FA127004863BB /* Shakespeare */;
+			targetProxy = 35D9409B247FA128004863BB /* PBXContainerItemProxy */;
+		};
+		35D940A7247FA128004863BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35D94083247FA127004863BB /* Shakespeare */;
+			targetProxy = 35D940A6247FA128004863BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35D9408D247FA127004863BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D9408E247FA127004863BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35D94092247FA128004863BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D94093247FA128004863BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35D940AC247FA128004863BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35D940AD247FA128004863BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35D940AF247FA128004863BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36JR7N2LBE;
+				INFOPLIST_FILE = Shakespeare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.stanford.Shakespeare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35D940B0247FA128004863BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36JR7N2LBE;
+				INFOPLIST_FILE = Shakespeare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.stanford.Shakespeare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35D940B2247FA128004863BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36JR7N2LBE;
+				INFOPLIST_FILE = ShakespeareTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.stanford.ShakespeareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shakespeare.app/Shakespeare";
+			};
+			name = Debug;
+		};
+		35D940B3247FA128004863BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36JR7N2LBE;
+				INFOPLIST_FILE = ShakespeareTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.stanford.ShakespeareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shakespeare.app/Shakespeare";
+			};
+			name = Release;
+		};
+		35D940B5247FA128004863BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36JR7N2LBE;
+				INFOPLIST_FILE = ShakespeareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.stanford.ShakespeareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shakespeare;
+			};
+			name = Debug;
+		};
+		35D940B6247FA128004863BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36JR7N2LBE;
+				INFOPLIST_FILE = ShakespeareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.stanford.ShakespeareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shakespeare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35D9407F247FA127004863BB /* Build configuration list for PBXProject "Shakespeare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D940AC247FA128004863BB /* Debug */,
+				35D940AD247FA128004863BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D940AE247FA128004863BB /* Build configuration list for PBXNativeTarget "Shakespeare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D940AF247FA128004863BB /* Debug */,
+				35D940B0247FA128004863BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D940B1247FA128004863BB /* Build configuration list for PBXNativeTarget "ShakespeareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D940B2247FA128004863BB /* Debug */,
+				35D940B3247FA128004863BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D940B4247FA128004863BB /* Build configuration list for PBXNativeTarget "ShakespeareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D940B5247FA128004863BB /* Debug */,
+				35D940B6247FA128004863BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35D9407C247FA127004863BB /* Project object */;
+}
